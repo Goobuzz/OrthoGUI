@@ -1,0 +1,2836 @@
+{
+    "Warrior_Base/Warrior_Base.group": {
+        "libraryRefs": [
+            "Warrior_Base/skeletons/Skeleton.skeleton",
+            "Warrior_Base/materials/01_-_Default.material",
+            "Warrior_Base/meshes/Base_Tunic_0.mesh",
+            "Warrior_Base/materials/01_-_Default_1.material",
+            "Warrior_Base/entities/Leather_Helm_0.entity",
+            "Warrior_Base/meshes/Leather_Helm_0.mesh",
+            "Warrior_Base/textures/leather.texture",
+            "Warrior_Base/entities/Base_Boots_0.entity",
+            "Warrior_Base/meshes/Base_Head_0.mesh",
+            "Warrior_Base/meshes/Base_Pants_0.mesh",
+            "Warrior_Base/animations/Animations.animation",
+            "Warrior_Base/entities/RootNode.entity",
+            "Warrior_Base/entities/Base_Pants_0.entity",
+            "Warrior_Base/entities/Base_Head_0.entity",
+            "Warrior_Base/materials/01_-_Default_3.material",
+            "Warrior_Base/entities/Base_Tunic_0.entity",
+            "Warrior_Base/meshes/Base_Boots_0.mesh",
+            "Warrior_Base/meshes/Base_Gloves_0.mesh",
+            "Warrior_Base/materials/01_-_Default_2.material",
+            "Warrior_Base/animations/Take_001.animstate",
+            "Warrior_Base/entities/Base_Gloves_0.entity",
+            "Warrior_Base/animations/Take_001.clip",
+            "Warrior_Base/binaries/1384842457_data.bin",
+            "Warrior_Base/binaries/1384842457_Warrior_Base_Take_001.bin",
+            "Warrior_Base/images/leather copy.png"
+        ],
+        "name": "Warrior_Base",
+        "ref": "Warrior_Base/Warrior_Base.group"
+    },
+    "Warrior_Base/animations/Animations.animation": {
+        "layers": [
+            {
+                "defaultState": "Take 001",
+                "name": "Default animation layer",
+                "states": {
+                    "Take 001": {
+                        "stateRef": "Warrior_Base/animations/Take_001.animstate"
+                    }
+                }
+            }
+        ]
+    },
+    "Warrior_Base/animations/Take_001.animstate": {
+        "clipSource": {
+            "clipRef": "Warrior_Base/animations/Take_001.clip",
+            "loopCount": -1,
+            "timeScale": 1.0,
+            "type": "Clip"
+        },
+        "name": "Take 001"
+    },
+    "Warrior_Base/animations/Take_001.clip": {
+        "binaryRef": "Warrior_Base/binaries/1384842457_Warrior_Base_Take_001.bin",
+        "channels": [
+            {
+                "blendType": "Linear",
+                "jointIndex": 0,
+                "jointName": "Bip01",
+                "name": "_jnt0",
+                "rotationSamples": [
+                    0,
+                    8,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    32,
+                    6,
+                    "float32"
+                ],
+                "times": [
+                    80,
+                    2,
+                    "float32"
+                ],
+                "translationSamples": [
+                    56,
+                    6,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 1,
+                "jointName": "Bip01 Pelvis",
+                "name": "_jnt1",
+                "rotationSamples": [
+                    88,
+                    8,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    120,
+                    6,
+                    "float32"
+                ],
+                "times": [
+                    168,
+                    2,
+                    "float32"
+                ],
+                "translationSamples": [
+                    144,
+                    6,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 2,
+                "jointName": "Bip01 Spine",
+                "name": "_jnt2",
+                "rotationSamples": [
+                    176,
+                    8,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    208,
+                    6,
+                    "float32"
+                ],
+                "times": [
+                    256,
+                    2,
+                    "float32"
+                ],
+                "translationSamples": [
+                    232,
+                    6,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 3,
+                "jointName": "Bip01 Spine1",
+                "name": "_jnt3",
+                "rotationSamples": [
+                    264,
+                    8,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    296,
+                    6,
+                    "float32"
+                ],
+                "times": [
+                    344,
+                    2,
+                    "float32"
+                ],
+                "translationSamples": [
+                    320,
+                    6,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 4,
+                "jointName": "Bip01 Spine2",
+                "name": "_jnt4",
+                "rotationSamples": [
+                    352,
+                    8,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    384,
+                    6,
+                    "float32"
+                ],
+                "times": [
+                    432,
+                    2,
+                    "float32"
+                ],
+                "translationSamples": [
+                    408,
+                    6,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 5,
+                "jointName": "Bip01 Neck",
+                "name": "_jnt5",
+                "rotationSamples": [
+                    440,
+                    8,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    472,
+                    6,
+                    "float32"
+                ],
+                "times": [
+                    520,
+                    2,
+                    "float32"
+                ],
+                "translationSamples": [
+                    496,
+                    6,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 6,
+                "jointName": "Bip01 Head",
+                "name": "_jnt6",
+                "rotationSamples": [
+                    528,
+                    8,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    560,
+                    6,
+                    "float32"
+                ],
+                "times": [
+                    608,
+                    2,
+                    "float32"
+                ],
+                "translationSamples": [
+                    584,
+                    6,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 7,
+                "jointName": "Bip01 HeadNub",
+                "name": "_jnt7",
+                "rotationSamples": [
+                    616,
+                    8,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    648,
+                    6,
+                    "float32"
+                ],
+                "times": [
+                    696,
+                    2,
+                    "float32"
+                ],
+                "translationSamples": [
+                    672,
+                    6,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 8,
+                "jointName": "Bip01 L Clavicle",
+                "name": "_jnt8",
+                "rotationSamples": [
+                    704,
+                    8,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    736,
+                    6,
+                    "float32"
+                ],
+                "times": [
+                    784,
+                    2,
+                    "float32"
+                ],
+                "translationSamples": [
+                    760,
+                    6,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 9,
+                "jointName": "Bip01 L UpperArm",
+                "name": "_jnt9",
+                "rotationSamples": [
+                    792,
+                    8,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    824,
+                    6,
+                    "float32"
+                ],
+                "times": [
+                    872,
+                    2,
+                    "float32"
+                ],
+                "translationSamples": [
+                    848,
+                    6,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 10,
+                "jointName": "Bip01 L Forearm",
+                "name": "_jnt10",
+                "rotationSamples": [
+                    880,
+                    8,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    912,
+                    6,
+                    "float32"
+                ],
+                "times": [
+                    960,
+                    2,
+                    "float32"
+                ],
+                "translationSamples": [
+                    936,
+                    6,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 11,
+                "jointName": "Bip01 L Hand",
+                "name": "_jnt11",
+                "rotationSamples": [
+                    968,
+                    8,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    1000,
+                    6,
+                    "float32"
+                ],
+                "times": [
+                    1048,
+                    2,
+                    "float32"
+                ],
+                "translationSamples": [
+                    1024,
+                    6,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 12,
+                "jointName": "Bip01 R Clavicle",
+                "name": "_jnt12",
+                "rotationSamples": [
+                    1056,
+                    8,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    1088,
+                    6,
+                    "float32"
+                ],
+                "times": [
+                    1136,
+                    2,
+                    "float32"
+                ],
+                "translationSamples": [
+                    1112,
+                    6,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 13,
+                "jointName": "Bip01 R UpperArm",
+                "name": "_jnt13",
+                "rotationSamples": [
+                    1144,
+                    8,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    1176,
+                    6,
+                    "float32"
+                ],
+                "times": [
+                    1224,
+                    2,
+                    "float32"
+                ],
+                "translationSamples": [
+                    1200,
+                    6,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 14,
+                "jointName": "Bip01 R Forearm",
+                "name": "_jnt14",
+                "rotationSamples": [
+                    1232,
+                    8,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    1264,
+                    6,
+                    "float32"
+                ],
+                "times": [
+                    1312,
+                    2,
+                    "float32"
+                ],
+                "translationSamples": [
+                    1288,
+                    6,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 15,
+                "jointName": "Bip01 R Hand",
+                "name": "_jnt15",
+                "rotationSamples": [
+                    1320,
+                    8,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    1352,
+                    6,
+                    "float32"
+                ],
+                "times": [
+                    1400,
+                    2,
+                    "float32"
+                ],
+                "translationSamples": [
+                    1376,
+                    6,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 16,
+                "jointName": "Bip01 L Thigh",
+                "name": "_jnt16",
+                "rotationSamples": [
+                    1408,
+                    8,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    1440,
+                    6,
+                    "float32"
+                ],
+                "times": [
+                    1488,
+                    2,
+                    "float32"
+                ],
+                "translationSamples": [
+                    1464,
+                    6,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 17,
+                "jointName": "Bip01 L Calf",
+                "name": "_jnt17",
+                "rotationSamples": [
+                    1496,
+                    8,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    1528,
+                    6,
+                    "float32"
+                ],
+                "times": [
+                    1576,
+                    2,
+                    "float32"
+                ],
+                "translationSamples": [
+                    1552,
+                    6,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 18,
+                "jointName": "Bip01 L Foot",
+                "name": "_jnt18",
+                "rotationSamples": [
+                    1584,
+                    8,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    1616,
+                    6,
+                    "float32"
+                ],
+                "times": [
+                    1664,
+                    2,
+                    "float32"
+                ],
+                "translationSamples": [
+                    1640,
+                    6,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 19,
+                "jointName": "Bip01 L Toe0",
+                "name": "_jnt19",
+                "rotationSamples": [
+                    1672,
+                    8,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    1704,
+                    6,
+                    "float32"
+                ],
+                "times": [
+                    1752,
+                    2,
+                    "float32"
+                ],
+                "translationSamples": [
+                    1728,
+                    6,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 20,
+                "jointName": "Bip01 L Toe0Nub",
+                "name": "_jnt20",
+                "rotationSamples": [
+                    1760,
+                    8,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    1792,
+                    6,
+                    "float32"
+                ],
+                "times": [
+                    1840,
+                    2,
+                    "float32"
+                ],
+                "translationSamples": [
+                    1816,
+                    6,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 21,
+                "jointName": "Bip01 R Thigh",
+                "name": "_jnt21",
+                "rotationSamples": [
+                    1848,
+                    8,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    1880,
+                    6,
+                    "float32"
+                ],
+                "times": [
+                    1928,
+                    2,
+                    "float32"
+                ],
+                "translationSamples": [
+                    1904,
+                    6,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 22,
+                "jointName": "Bip01 R Calf",
+                "name": "_jnt22",
+                "rotationSamples": [
+                    1936,
+                    8,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    1968,
+                    6,
+                    "float32"
+                ],
+                "times": [
+                    2016,
+                    2,
+                    "float32"
+                ],
+                "translationSamples": [
+                    1992,
+                    6,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 23,
+                "jointName": "Bip01 R Foot",
+                "name": "_jnt23",
+                "rotationSamples": [
+                    2024,
+                    8,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    2056,
+                    6,
+                    "float32"
+                ],
+                "times": [
+                    2104,
+                    2,
+                    "float32"
+                ],
+                "translationSamples": [
+                    2080,
+                    6,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 24,
+                "jointName": "Bip01 R Toe0",
+                "name": "_jnt24",
+                "rotationSamples": [
+                    2112,
+                    8,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    2144,
+                    6,
+                    "float32"
+                ],
+                "times": [
+                    2192,
+                    2,
+                    "float32"
+                ],
+                "translationSamples": [
+                    2168,
+                    6,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 25,
+                "jointName": "Bip01 R Toe0Nub",
+                "name": "_jnt25",
+                "rotationSamples": [
+                    2200,
+                    8,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    2232,
+                    6,
+                    "float32"
+                ],
+                "times": [
+                    2280,
+                    2,
+                    "float32"
+                ],
+                "translationSamples": [
+                    2256,
+                    6,
+                    "float32"
+                ],
+                "type": "Joint"
+            }
+        ],
+        "name": "Take 001"
+    },
+    "Warrior_Base/entities/Base_Boots_0.entity": {
+        "components": {
+            "meshData": {
+                "meshRef": "Warrior_Base/meshes/Base_Boots_0.mesh",
+                "poseRef": "Warrior_Base/skeletons/Skeleton.skeleton"
+            },
+            "meshRenderer": {
+                "castShadows": true,
+                "cullMode": "Dynamic",
+                "hidden": false,
+                "materialRefs": [
+                    "Warrior_Base/materials/01_-_Default.material"
+                ],
+                "receiveShadows": true,
+                "reflectable": false
+            },
+            "transform": {
+                "parentRef": "Warrior_Base/entities/RootNode.entity",
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    0.01,
+                    0.01,
+                    0.01
+                ],
+                "translation": [
+                    0,
+                    0,
+                    0
+                ]
+            }
+        },
+        "name": "Base_Boots",
+        "nodeType": "Mesh",
+        "ref": "Warrior_Base/entities/Base_Boots_0.entity"
+    },
+    "Warrior_Base/entities/Base_Gloves_0.entity": {
+        "components": {
+            "meshData": {
+                "meshRef": "Warrior_Base/meshes/Base_Gloves_0.mesh",
+                "poseRef": "Warrior_Base/skeletons/Skeleton.skeleton"
+            },
+            "meshRenderer": {
+                "castShadows": true,
+                "cullMode": "Dynamic",
+                "hidden": false,
+                "materialRefs": [
+                    "Warrior_Base/materials/01_-_Default.material"
+                ],
+                "receiveShadows": true,
+                "reflectable": false
+            },
+            "transform": {
+                "parentRef": "Warrior_Base/entities/RootNode.entity",
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    0.01,
+                    0.01,
+                    0.01
+                ],
+                "translation": [
+                    0,
+                    0,
+                    0
+                ]
+            }
+        },
+        "name": "Base_Gloves",
+        "nodeType": "Mesh",
+        "ref": "Warrior_Base/entities/Base_Gloves_0.entity"
+    },
+    "Warrior_Base/entities/Base_Head_0.entity": {
+        "components": {
+            "meshData": {
+                "meshRef": "Warrior_Base/meshes/Base_Head_0.mesh",
+                "poseRef": "Warrior_Base/skeletons/Skeleton.skeleton"
+            },
+            "meshRenderer": {
+                "castShadows": true,
+                "cullMode": "Dynamic",
+                "hidden": false,
+                "materialRefs": [
+                    "Warrior_Base/materials/01_-_Default.material"
+                ],
+                "receiveShadows": true,
+                "reflectable": false
+            },
+            "transform": {
+                "parentRef": "Warrior_Base/entities/RootNode.entity",
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    0.01,
+                    0.01,
+                    0.01
+                ],
+                "translation": [
+                    0,
+                    0,
+                    0
+                ]
+            }
+        },
+        "name": "Base_Head",
+        "nodeType": "Mesh",
+        "ref": "Warrior_Base/entities/Base_Head_0.entity"
+    },
+    "Warrior_Base/entities/Base_Pants_0.entity": {
+        "components": {
+            "meshData": {
+                "meshRef": "Warrior_Base/meshes/Base_Pants_0.mesh",
+                "poseRef": "Warrior_Base/skeletons/Skeleton.skeleton"
+            },
+            "meshRenderer": {
+                "castShadows": true,
+                "cullMode": "Dynamic",
+                "hidden": false,
+                "materialRefs": [
+                    "Warrior_Base/materials/01_-_Default.material"
+                ],
+                "receiveShadows": true,
+                "reflectable": false
+            },
+            "transform": {
+                "parentRef": "Warrior_Base/entities/RootNode.entity",
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    0.01,
+                    0.01,
+                    0.01
+                ],
+                "translation": [
+                    0,
+                    0,
+                    0
+                ]
+            }
+        },
+        "name": "Base_Pants",
+        "nodeType": "Mesh",
+        "ref": "Warrior_Base/entities/Base_Pants_0.entity"
+    },
+    "Warrior_Base/entities/Base_Tunic_0.entity": {
+        "components": {
+            "meshData": {
+                "meshRef": "Warrior_Base/meshes/Base_Tunic_0.mesh",
+                "poseRef": "Warrior_Base/skeletons/Skeleton.skeleton"
+            },
+            "meshRenderer": {
+                "castShadows": true,
+                "cullMode": "Dynamic",
+                "hidden": false,
+                "materialRefs": [
+                    "Warrior_Base/materials/01_-_Default.material"
+                ],
+                "receiveShadows": true,
+                "reflectable": false
+            },
+            "transform": {
+                "parentRef": "Warrior_Base/entities/RootNode.entity",
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    0.01,
+                    0.01,
+                    0.01
+                ],
+                "translation": [
+                    0,
+                    0,
+                    0
+                ]
+            }
+        },
+        "name": "Base_Tunic",
+        "nodeType": "Mesh",
+        "ref": "Warrior_Base/entities/Base_Tunic_0.entity"
+    },
+    "Warrior_Base/entities/Leather_Helm_0.entity": {
+        "components": {
+            "meshData": {
+                "meshRef": "Warrior_Base/meshes/Leather_Helm_0.mesh",
+                "poseRef": "Warrior_Base/skeletons/Skeleton.skeleton"
+            },
+            "meshRenderer": {
+                "castShadows": true,
+                "cullMode": "Dynamic",
+                "hidden": false,
+                "materialRefs": [
+                    "Warrior_Base/materials/01_-_Default.material"
+                ],
+                "receiveShadows": true,
+                "reflectable": false
+            },
+            "transform": {
+                "parentRef": "Warrior_Base/entities/RootNode.entity",
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    0.01,
+                    0.01,
+                    0.01
+                ],
+                "translation": [
+                    0,
+                    0,
+                    0
+                ]
+            }
+        },
+        "name": "Leather_Helm",
+        "nodeType": "Mesh",
+        "ref": "Warrior_Base/entities/Leather_Helm_0.entity"
+    },
+    "Warrior_Base/entities/RootNode.entity": {
+        "components": {
+            "animation": {
+                "layersRef": "Warrior_Base/animations/Animations.animation",
+                "poseRef": "Warrior_Base/skeletons/Skeleton.skeleton"
+            },
+            "transform": {
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "translation": [
+                    0,
+                    0,
+                    0
+                ]
+            }
+        },
+        "name": "Warrior_Base",
+        "nodeType": "Null",
+        "ref": "Warrior_Base/entities/RootNode.entity"
+    },
+    "Warrior_Base/materials/01_-_Default.material": {
+        "blendState": {
+            "blendDst": "OneMinusSrcAlphaFactor",
+            "blendEquation": "AddEquation",
+            "blendSrc": "SrcAlphaFactor",
+            "blending": "CustomBlending"
+        },
+        "cullState": {
+            "cullFace": "Back",
+            "enabled": false,
+            "frontFace": "CCW"
+        },
+        "depthState": {
+            "enabled": true,
+            "write": true
+        },
+        "name": "Leather",
+        "ref": "Warrior_Base/materials/01_-_Default.material",
+        "renderQueue": 2000,
+        "shaderRef": "GOO_ENGINE_SHADERS/uber",
+        "texturesMapping": {
+            "DIFFUSE_MAP": {
+                "enabled": true,
+                "textureRef": "Warrior_Base/textures/leather.texture"
+            }
+        },
+        "type": "Phong",
+        "uniforms": {
+            "discardThreshold": {
+                "enabled": false,
+                "value": 0
+            },
+            "fresnel": {
+                "enabled": true,
+                "value": 0
+            },
+            "materialAmbient": {
+                "enabled": true,
+                "value": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            "materialDiffuse": {
+                "enabled": true,
+                "value": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            "materialEmissive": {
+                "enabled": true,
+                "value": [
+                    0,
+                    0,
+                    0,
+                    1
+                ]
+            },
+            "materialSpecular": {
+                "enabled": true,
+                "value": [
+                    0,
+                    0,
+                    0,
+                    1
+                ]
+            },
+            "materialSpecularPower": {
+                "enabled": true,
+                "value": 2.0000000206574
+            },
+            "normalMultiplier": {
+                "enabled": true,
+                "value": 1
+            },
+            "opacity": {
+                "enabled": true,
+                "value": 1
+            },
+            "reflectivity": {
+                "enabled": true,
+                "value": 0
+            }
+        }
+    },
+    "Warrior_Base/materials/01_-_Default_1.material": {
+        "blendState": {
+            "blendDst": "OneMinusSrcAlphaFactor",
+            "blendEquation": "AddEquation",
+            "blendSrc": "SrcAlphaFactor",
+            "blending": "NoBlending"
+        },
+        "cullState": {
+            "cullFace": "Back",
+            "enabled": true,
+            "frontFace": "CCW"
+        },
+        "depthState": {
+            "enabled": true,
+            "write": true
+        },
+        "name": "01 - Default",
+        "ref": "Warrior_Base/materials/01_-_Default_1.material",
+        "renderQueue": 1000,
+        "shaderRef": "GOO_ENGINE_SHADERS/uber",
+        "texturesMapping": {
+            "DIFFUSE_MAP": {
+                "enabled": true,
+                "textureRef": "Warrior_Base/textures/leather.texture"
+            }
+        },
+        "type": "Phong",
+        "uniforms": {
+            "discardThreshold": {
+                "enabled": false,
+                "value": 0
+            },
+            "fresnel": {
+                "enabled": true,
+                "value": 0
+            },
+            "materialAmbient": {
+                "enabled": true,
+                "value": [
+                    0,
+                    0,
+                    0,
+                    1
+                ]
+            },
+            "materialDiffuse": {
+                "enabled": true,
+                "value": [
+                    0,
+                    0,
+                    0,
+                    1
+                ]
+            },
+            "materialEmissive": {
+                "enabled": true,
+                "value": [
+                    0,
+                    0,
+                    0,
+                    1
+                ]
+            },
+            "materialSpecular": {
+                "enabled": true,
+                "value": [
+                    0,
+                    0,
+                    0,
+                    1
+                ]
+            },
+            "materialSpecularPower": {
+                "enabled": true,
+                "value": 2.0000000206574
+            },
+            "normalMultiplier": {
+                "enabled": true,
+                "value": 1
+            },
+            "opacity": {
+                "enabled": true,
+                "value": 1
+            },
+            "reflectivity": {
+                "enabled": true,
+                "value": 0
+            }
+        }
+    },
+    "Warrior_Base/materials/01_-_Default_2.material": {
+        "blendState": {
+            "blendDst": "OneMinusSrcAlphaFactor",
+            "blendEquation": "AddEquation",
+            "blendSrc": "SrcAlphaFactor",
+            "blending": "NoBlending"
+        },
+        "cullState": {
+            "cullFace": "Back",
+            "enabled": true,
+            "frontFace": "CCW"
+        },
+        "depthState": {
+            "enabled": true,
+            "write": true
+        },
+        "name": "01 - Default",
+        "ref": "Warrior_Base/materials/01_-_Default_2.material",
+        "renderQueue": 1000,
+        "shaderRef": "GOO_ENGINE_SHADERS/uber",
+        "texturesMapping": {
+            "DIFFUSE_MAP": {
+                "enabled": true,
+                "textureRef": "Warrior_Base/textures/leather.texture"
+            }
+        },
+        "type": "Phong",
+        "uniforms": {
+            "discardThreshold": {
+                "enabled": false,
+                "value": 0
+            },
+            "fresnel": {
+                "enabled": true,
+                "value": 0
+            },
+            "materialAmbient": {
+                "enabled": true,
+                "value": [
+                    0,
+                    0,
+                    0,
+                    1
+                ]
+            },
+            "materialDiffuse": {
+                "enabled": true,
+                "value": [
+                    0,
+                    0,
+                    0,
+                    1
+                ]
+            },
+            "materialEmissive": {
+                "enabled": true,
+                "value": [
+                    0,
+                    0,
+                    0,
+                    1
+                ]
+            },
+            "materialSpecular": {
+                "enabled": true,
+                "value": [
+                    0,
+                    0,
+                    0,
+                    1
+                ]
+            },
+            "materialSpecularPower": {
+                "enabled": true,
+                "value": 2.0000000206574
+            },
+            "normalMultiplier": {
+                "enabled": true,
+                "value": 1
+            },
+            "opacity": {
+                "enabled": true,
+                "value": 1
+            },
+            "reflectivity": {
+                "enabled": true,
+                "value": 0
+            }
+        }
+    },
+    "Warrior_Base/materials/01_-_Default_3.material": {
+        "blendState": {
+            "blendDst": "OneMinusSrcAlphaFactor",
+            "blendEquation": "AddEquation",
+            "blendSrc": "SrcAlphaFactor",
+            "blending": "NoBlending"
+        },
+        "cullState": {
+            "cullFace": "Back",
+            "enabled": true,
+            "frontFace": "CCW"
+        },
+        "depthState": {
+            "enabled": true,
+            "write": true
+        },
+        "name": "01 - Default",
+        "ref": "Warrior_Base/materials/01_-_Default_3.material",
+        "renderQueue": 1000,
+        "shaderRef": "GOO_ENGINE_SHADERS/uber",
+        "texturesMapping": {
+            "DIFFUSE_MAP": {
+                "enabled": true,
+                "textureRef": "Warrior_Base/textures/leather.texture"
+            }
+        },
+        "type": "Phong",
+        "uniforms": {
+            "discardThreshold": {
+                "enabled": false,
+                "value": 0
+            },
+            "fresnel": {
+                "enabled": true,
+                "value": 0
+            },
+            "materialAmbient": {
+                "enabled": true,
+                "value": [
+                    0,
+                    0,
+                    0,
+                    1
+                ]
+            },
+            "materialDiffuse": {
+                "enabled": true,
+                "value": [
+                    0,
+                    0,
+                    0,
+                    1
+                ]
+            },
+            "materialEmissive": {
+                "enabled": true,
+                "value": [
+                    0,
+                    0,
+                    0,
+                    1
+                ]
+            },
+            "materialSpecular": {
+                "enabled": true,
+                "value": [
+                    0,
+                    0,
+                    0,
+                    1
+                ]
+            },
+            "materialSpecularPower": {
+                "enabled": true,
+                "value": 2.0000000206574
+            },
+            "normalMultiplier": {
+                "enabled": true,
+                "value": 1
+            },
+            "opacity": {
+                "enabled": true,
+                "value": 1
+            },
+            "reflectivity": {
+                "enabled": true,
+                "value": 0
+            }
+        }
+    },
+    "Warrior_Base/meshes/Base_Boots_0.mesh": {
+        "binaryRef": "Warrior_Base/binaries/1384842457_data.bin",
+        "boundingVolume": {
+            "max": [
+                33.6789436340332,
+                13.2403135299683,
+                67.1792373657227
+            ],
+            "min": [
+                -33.0595893859863,
+                -31.7911682128906,
+                0.0797019004821777
+            ],
+            "type": "BoundingBox"
+        },
+        "colors": [
+            108356,
+            880,
+            "float32"
+        ],
+        "indexLengths": [
+            720
+        ],
+        "indexModes": [
+            "Triangles"
+        ],
+        "indices": [
+            98836,
+            720,
+            "uint8"
+        ],
+        "joints": [
+            111876,
+            880,
+            "uint8"
+        ],
+        "name": "Base_Boots",
+        "normals": [
+            102196,
+            660,
+            "float32"
+        ],
+        "tangents": [
+            104836,
+            880,
+            "float32"
+        ],
+        "textureCoords": [
+            [
+                116276,
+                440,
+                "float32"
+            ],
+            [
+                118036,
+                440,
+                "float32"
+            ]
+        ],
+        "type": "SkinnedMesh",
+        "vertexCount": 220,
+        "vertices": [
+            99556,
+            660,
+            "float32"
+        ],
+        "weights": [
+            112756,
+            880,
+            "float32"
+        ]
+    },
+    "Warrior_Base/meshes/Base_Gloves_0.mesh": {
+        "binaryRef": "Warrior_Base/binaries/1384842457_data.bin",
+        "boundingVolume": {
+            "max": [
+                49.3519096374512,
+                12.6863279342651,
+                170.144256591797
+            ],
+            "min": [
+                -48.7325553894043,
+                -33.9631652832031,
+                133.523086547852
+            ],
+            "type": "BoundingBox"
+        },
+        "colors": [
+            127244,
+            672,
+            "float32"
+        ],
+        "indexLengths": [
+            726
+        ],
+        "indexModes": [
+            "Triangles"
+        ],
+        "indices": [
+            119796,
+            726,
+            "uint8"
+        ],
+        "joints": [
+            129932,
+            672,
+            "uint8"
+        ],
+        "name": "Base_Gloves",
+        "normals": [
+            122540,
+            504,
+            "float32"
+        ],
+        "tangents": [
+            124556,
+            672,
+            "float32"
+        ],
+        "textureCoords": [
+            [
+                133292,
+                336,
+                "float32"
+            ],
+            [
+                134636,
+                336,
+                "float32"
+            ]
+        ],
+        "type": "SkinnedMesh",
+        "vertexCount": 168,
+        "vertices": [
+            120524,
+            504,
+            "float32"
+        ],
+        "weights": [
+            130604,
+            672,
+            "float32"
+        ]
+    },
+    "Warrior_Base/meshes/Base_Head_0.mesh": {
+        "binaryRef": "Warrior_Base/binaries/1384842457_data.bin",
+        "boundingVolume": {
+            "max": [
+                14.5994396209717,
+                14.6827344894409,
+                248.946990966797
+            ],
+            "min": [
+                -13.9800863265991,
+                -20.0039100646973,
+                203.299362182617
+            ],
+            "type": "BoundingBox"
+        },
+        "colors": [
+            74344,
+            1012,
+            "float32"
+        ],
+        "indexLengths": [
+            1152
+        ],
+        "indexModes": [
+            "Triangles"
+        ],
+        "indices": [
+            63072,
+            1152,
+            "uint8"
+        ],
+        "joints": [
+            78392,
+            1012,
+            "uint8"
+        ],
+        "name": "Base_Head",
+        "normals": [
+            67260,
+            759,
+            "float32"
+        ],
+        "tangents": [
+            70296,
+            1012,
+            "float32"
+        ],
+        "textureCoords": [
+            [
+                83452,
+                506,
+                "float32"
+            ],
+            [
+                85476,
+                506,
+                "float32"
+            ]
+        ],
+        "type": "SkinnedMesh",
+        "vertexCount": 253,
+        "vertices": [
+            64224,
+            759,
+            "float32"
+        ],
+        "weights": [
+            79404,
+            1012,
+            "float32"
+        ]
+    },
+    "Warrior_Base/meshes/Base_Pants_0.mesh": {
+        "binaryRef": "Warrior_Base/binaries/1384842457_data.bin",
+        "boundingVolume": {
+            "max": [
+                27.862548828125,
+                13.6951990127563,
+                133.034210205078
+            ],
+            "min": [
+                -27.2431945800781,
+                -18.8956832885742,
+                64.4853744506836
+            ],
+            "type": "BoundingBox"
+        },
+        "colors": [
+            92700,
+            472,
+            "float32"
+        ],
+        "indexLengths": [
+            480
+        ],
+        "indexModes": [
+            "Triangles"
+        ],
+        "indices": [
+            87500,
+            480,
+            "uint8"
+        ],
+        "joints": [
+            94588,
+            472,
+            "uint8"
+        ],
+        "name": "Base_Pants",
+        "normals": [
+            89396,
+            354,
+            "float32"
+        ],
+        "tangents": [
+            90812,
+            472,
+            "float32"
+        ],
+        "textureCoords": [
+            [
+                96948,
+                236,
+                "float32"
+            ],
+            [
+                97892,
+                236,
+                "float32"
+            ]
+        ],
+        "type": "SkinnedMesh",
+        "vertexCount": 118,
+        "vertices": [
+            87980,
+            354,
+            "float32"
+        ],
+        "weights": [
+            95060,
+            472,
+            "float32"
+        ]
+    },
+    "Warrior_Base/meshes/Base_Tunic_0.mesh": {
+        "binaryRef": "Warrior_Base/binaries/1384842457_data.bin",
+        "boundingVolume": {
+            "max": [
+                48.7258949279785,
+                22.1888771057129,
+                216.851119995117
+            ],
+            "min": [
+                -48.1065406799316,
+                -25.9414386749268,
+                120.55940246582
+            ],
+            "type": "BoundingBox"
+        },
+        "colors": [
+            23440,
+            1960,
+            "float32"
+        ],
+        "indexLengths": [
+            1920
+        ],
+        "indexModes": [
+            "Triangles"
+        ],
+        "indices": [
+            0,
+            1920,
+            "uint16"
+        ],
+        "joints": [
+            31280,
+            1960,
+            "uint8"
+        ],
+        "name": "Base_Tunic",
+        "normals": [
+            9720,
+            1470,
+            "float32"
+        ],
+        "tangents": [
+            15600,
+            1960,
+            "float32"
+        ],
+        "textureCoords": [
+            [
+                41080,
+                980,
+                "float32"
+            ],
+            [
+                45000,
+                980,
+                "float32"
+            ]
+        ],
+        "type": "SkinnedMesh",
+        "vertexCount": 490,
+        "vertices": [
+            3840,
+            1470,
+            "float32"
+        ],
+        "weights": [
+            33240,
+            1960,
+            "float32"
+        ]
+    },
+    "Warrior_Base/meshes/Leather_Helm_0.mesh": {
+        "binaryRef": "Warrior_Base/binaries/1384842457_data.bin",
+        "boundingVolume": {
+            "max": [
+                13.3723039627075,
+                15.4394006729126,
+                251.695068359375
+            ],
+            "min": [
+                -12.8774337768555,
+                -17.8619632720947,
+                229.052185058594
+            ],
+            "type": "BoundingBox"
+        },
+        "colors": [
+            55376,
+            592,
+            "float32"
+        ],
+        "indexLengths": [
+            534
+        ],
+        "indexModes": [
+            "Triangles"
+        ],
+        "indices": [
+            48920,
+            534,
+            "uint8"
+        ],
+        "joints": [
+            57744,
+            592,
+            "uint8"
+        ],
+        "name": "Leather_Helm",
+        "normals": [
+            51232,
+            444,
+            "float32"
+        ],
+        "tangents": [
+            53008,
+            592,
+            "float32"
+        ],
+        "textureCoords": [
+            [
+                60704,
+                296,
+                "float32"
+            ],
+            [
+                61888,
+                296,
+                "float32"
+            ]
+        ],
+        "type": "SkinnedMesh",
+        "vertexCount": 148,
+        "vertices": [
+            49456,
+            444,
+            "float32"
+        ],
+        "weights": [
+            58336,
+            592,
+            "float32"
+        ]
+    },
+    "Warrior_Base/skeletons/Skeleton.skeleton": {
+        "joints": [
+            {
+                "index": 0,
+                "inverseBindPose": {
+                    "matrix": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bip01",
+                "parentIndex": -32768
+            },
+            {
+                "index": 1,
+                "inverseBindPose": {
+                    "matrix": [
+                        6.123233995730879e-17,
+                        6.123233995730866e-17,
+                        0.999999999999039,
+                        -136.353683471549,
+                        2.7577071810397707e-06,
+                        -1.00000005959704,
+                        6.123217474577042e-17,
+                        2.3024800747746178e-20,
+                        1.00000005959608,
+                        2.757707181037112e-06,
+                        -6.123251246743873e-17,
+                        8.349255598360072e-15,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bip01 Pelvis",
+                "parentIndex": 0
+            },
+            {
+                "index": 2,
+                "inverseBindPose": {
+                    "matrix": [
+                        5.439282271596023e-08,
+                        -0.039676569330328516,
+                        0.999212527014598,
+                        -150.36184641070102,
+                        -1.4037726595957677e-06,
+                        -0.9992125863757559,
+                        -0.039676571687355326,
+                        5.98749247690761,
+                        1.0000000596026697,
+                        -1.4005092401249853e-06,
+                        -1.1004688687204218e-07,
+                        1.660691038342053e-05,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bip01 Spine",
+                "parentIndex": 1
+            },
+            {
+                "index": 3,
+                "inverseBindPose": {
+                    "matrix": [
+                        -1.934136636255143e-08,
+                        0.01410840204213217,
+                        0.999900482847178,
+                        -171.72785992904699,
+                        -1.4028296559170231e-06,
+                        -0.9999005424248593,
+                        0.014108402882734546,
+                        -3.23404851895402,
+                        1.00000005960268,
+                        -1.4024171428382457e-06,
+                        3.913112661559642e-08,
+                        -8.969957069938248e-06,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bip01 Spine1",
+                "parentIndex": 2
+            },
+            {
+                "index": 4,
+                "inverseBindPose": {
+                    "matrix": [
+                        -3.17877468209195e-08,
+                        0.023187344581638295,
+                        0.999731211000538,
+                        -192.982916141769,
+                        -1.403062008965944e-06,
+                        -0.9997312705711828,
+                        0.023187345963250096,
+                        -4.969665895966501,
+                        1.00000005960268,
+                        -1.4019476015089263e-06,
+                        6.431247732357577e-08,
+                        -1.3783864278686904e-05,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bip01 Spine2",
+                "parentIndex": 3
+            },
+            {
+                "index": 5,
+                "inverseBindPose": {
+                    "matrix": [
+                        2.490678855215006e-07,
+                        -0.18168115073126964,
+                        0.9833575614359891,
+                        -210.259642175732,
+                        -1.4255088023780305e-06,
+                        -0.9833576164091351,
+                        -0.1816811608875239,
+                        40.216056389528,
+                        1.00000005960255,
+                        -1.3565337401501159e-06,
+                        -5.039108160812226e-07,
+                        0.00010970323334348954,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bip01 Neck",
+                "parentIndex": 4
+            },
+            {
+                "index": 6,
+                "inverseBindPose": {
+                    "matrix": [
+                        5.839277757986609e-08,
+                        -0.04259150772050075,
+                        0.9990925611206949,
+                        -219.136748219961,
+                        -1.4039375804455721e-06,
+                        -0.999092620456733,
+                        -0.04259151024992543,
+                        9.71234950700015,
+                        1.0000000596026697,
+                        -1.400176581513909e-06,
+                        -1.1813561359064873e-07,
+                        2.5098997098369883e-05,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bip01 Head",
+                "parentIndex": 5
+            },
+            {
+                "index": 7,
+                "inverseBindPose": {
+                    "matrix": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bip01 HeadNub",
+                "parentIndex": 6
+            },
+            {
+                "index": 8,
+                "inverseBindPose": {
+                    "matrix": [
+                        0.9640646205201479,
+                        0.18152914995996464,
+                        -0.19397592705162625,
+                        25.999948421771318,
+                        -0.18956639264961603,
+                        0.9815855757851113,
+                        -0.023548577791697087,
+                        6.44135534857187,
+                        0.18612919214665202,
+                        0.059473658969115994,
+                        0.9807236116553033,
+                        -209.00126634414804,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bip01 L Clavicle",
+                "parentIndex": 5
+            },
+            {
+                "index": 9,
+                "inverseBindPose": {
+                    "matrix": [
+                        0.1275097227524648,
+                        -0.19315966201910503,
+                        -0.9728467544085522,
+                        197.96934800788202,
+                        0.08813229198459237,
+                        0.979179728206329,
+                        -0.18286569846034412,
+                        30.5289469182422,
+                        0.9879140507547771,
+                        -0.062422056777238596,
+                        0.14187853274850948,
+                        -60.592278415743706,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bip01 L UpperArm",
+                "parentIndex": 8
+            },
+            {
+                "index": 10,
+                "inverseBindPose": {
+                    "matrix": [
+                        0.07504583962108848,
+                        -0.6082726786920116,
+                        -0.7901725620319365,
+                        129.12247831681591,
+                        0.13562508770545795,
+                        0.7912698680598559,
+                        -0.5962365263873343,
+                        98.15332061802161,
+                        0.9879140447198991,
+                        -0.062422147033999266,
+                        0.14187853505980935,
+                        -60.5922805937038,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bip01 L Forearm",
+                "parentIndex": 9
+            },
+            {
+                "index": 11,
+                "inverseBindPose": {
+                    "matrix": [
+                        0.05540285809838799,
+                        -0.606912397193447,
+                        -0.7928354805785542,
+                        100.733061907441,
+                        -0.969830322509454,
+                        0.1560895106080641,
+                        -0.18725704693369577,
+                        68.45810006450036,
+                        0.23740190843267767,
+                        0.7792904097221307,
+                        -0.5799541994432508,
+                        91.55221369441814,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bip01 L Hand",
+                "parentIndex": 10
+            },
+            {
+                "index": 12,
+                "inverseBindPose": {
+                    "matrix": [
+                        -0.9640651393590953,
+                        0.18152650546167232,
+                        -0.19397593550263972,
+                        25.999951725517555,
+                        0.18956370414843302,
+                        0.98158613610226,
+                        -0.02354857961726052,
+                        6.441355440363509,
+                        0.18612935994528496,
+                        -0.0594731494890211,
+                        -0.9807236131485142,
+                        209.001266372386,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bip01 R Clavicle",
+                "parentIndex": 5
+            },
+            {
+                "index": 13,
+                "inverseBindPose": {
+                    "matrix": [
+                        -0.12750910330024845,
+                        -0.1931598947835002,
+                        -0.9728466950414778,
+                        197.96933816486697,
+                        -0.0881350531966063,
+                        0.9791795120865963,
+                        -0.18286559519925388,
+                        30.528923300229202,
+                        0.9879138369711871,
+                        0.06242486624499957,
+                        -0.14187845709850247,
+                        60.59225990822509,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bip01 R UpperArm",
+                "parentIndex": 12
+            },
+            {
+                "index": 14,
+                "inverseBindPose": {
+                    "matrix": [
+                        -0.07504408094943468,
+                        -0.6082729740058735,
+                        -0.7901724989076251,
+                        129.122461230251,
+                        -0.13562725033133977,
+                        0.7912693916851333,
+                        -0.5962365995002792,
+                        98.15332221031426,
+                        0.9879138346652552,
+                        0.062424890149839256,
+                        -0.14187846263708617,
+                        60.59225743681065,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bip01 R Forearm",
+                "parentIndex": 13
+            },
+            {
+                "index": 15,
+                "inverseBindPose": {
+                    "matrix": [
+                        -0.05540109975794228,
+                        -0.6069126355790733,
+                        -0.7928354209307752,
+                        100.73305434039902,
+                        0.9698298923502419,
+                        0.15609219669790844,
+                        -0.18725698321007256,
+                        68.45808786834017,
+                        0.23740403035440083,
+                        -0.7792896637258443,
+                        0.579954284563842,
+                        -91.55222681032801,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bip01 R Hand",
+                "parentIndex": 14
+            },
+            {
+                "index": 16,
+                "inverseBindPose": {
+                    "matrix": [
+                        0.0439340842787096,
+                        0.02814816991069622,
+                        -0.9986377659130269,
+                        135.59589785518898,
+                        0.11131187983233093,
+                        -0.993516908077438,
+                        -0.023106774063206954,
+                        1.70137962062167,
+                        -0.9928139951737007,
+                        -0.1101450805002483,
+                        -0.04678248487335987,
+                        19.3058074614875,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bip01 L Thigh",
+                "parentIndex": 2
+            },
+            {
+                "index": 17,
+                "inverseBindPose": {
+                    "matrix": [
+                        0.05620132537593966,
+                        -0.08402189273637478,
+                        -0.9948778609823689,
+                        74.43845951377149,
+                        0.10565013979172604,
+                        -0.990357712756085,
+                        0.08960839404573044,
+                        -6.7323382206689715,
+                        -0.9928139937173909,
+                        -0.11014509160145682,
+                        -0.04678248964226003,
+                        19.305807663134797,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bip01 L Calf",
+                "parentIndex": 16
+            },
+            {
+                "index": 18,
+                "inverseBindPose": {
+                    "matrix": [
+                        0.0031295288103900133,
+                        -0.012400100839816198,
+                        -0.9999182144316862,
+                        13.7003521691982,
+                        0.24468547575268002,
+                        -0.9695182417743383,
+                        0.012788920158998407,
+                        -8.26606029742629,
+                        -0.9695975566244179,
+                        -0.2447054932498099,
+                        -1.069646008869315e-08,
+                        17.743330785338795,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bip01 L Foot",
+                "parentIndex": 17
+            },
+            {
+                "index": 19,
+                "inverseBindPose": {
+                    "matrix": [
+                        0.24468627008282373,
+                        -0.9695180414283302,
+                        0.01278891059793426,
+                        -25.614862122143194,
+                        -0.0031294942473697835,
+                        0.012400099702014958,
+                        0.9999182145595511,
+                        -2.0528475689265426,
+                        -0.969597356280237,
+                        -0.24470628707298417,
+                        3.301137080112796e-08,
+                        17.7433251137856,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bip01 L Toe0",
+                "parentIndex": 18
+            },
+            {
+                "index": 20,
+                "inverseBindPose": {
+                    "matrix": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bip01 L Toe0Nub",
+                "parentIndex": 19
+            },
+            {
+                "index": 21,
+                "inverseBindPose": {
+                    "matrix": [
+                        -0.043934333204435724,
+                        0.02814805027299042,
+                        -0.9986377507133238,
+                        135.595893546413,
+                        -0.11130922171227908,
+                        -0.9935171531037497,
+                        -0.023106751492947684,
+                        1.701375684792958,
+                        -0.9928142166118059,
+                        0.11014241902149101,
+                        0.04678265458837137,
+                        -19.305829553904093,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bip01 R Thigh",
+                "parentIndex": 2
+            },
+            {
+                "index": 22,
+                "inverseBindPose": {
+                    "matrix": [
+                        -0.056201268442264085,
+                        -0.08402204017180771,
+                        -0.9948778423189449,
+                        74.43845477627157,
+                        -0.10564746359843694,
+                        -0.990358046036428,
+                        0.08960841341353933,
+                        -6.7323413424367,
+                        -0.992814217356116,
+                        0.1101424115612465,
+                        0.046782656356706316,
+                        -19.305829587676104,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bip01 R Calf",
+                "parentIndex": 21
+            },
+            {
+                "index": 23,
+                "inverseBindPose": {
+                    "matrix": [
+                        -0.003129494817060294,
+                        -0.01240011015282028,
+                        -0.9999182144134834,
+                        13.700354006454406,
+                        -0.24468279345655886,
+                        -0.969518872875054,
+                        0.012788920302182805,
+                        -8.266064962640387,
+                        -0.9695981877820777,
+                        0.24470281073559386,
+                        1.069634377793374e-08,
+                        -17.7433504908884,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bip01 R Foot",
+                "parentIndex": 22
+            },
+            {
+                "index": 24,
+                "inverseBindPose": {
+                    "matrix": [
+                        -0.24468359592352443,
+                        -0.9695186704947191,
+                        0.012788909461010012,
+                        -25.614868591256588,
+                        0.003129544809722502,
+                        0.012400086354674803,
+                        0.9999182145465589,
+                        -2.052847842465201,
+                        -0.9695979851139348,
+                        0.24470361377629968,
+                        5.440415307378441e-08,
+                        -17.7433451668287,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bip01 R Toe0",
+                "parentIndex": 23
+            },
+            {
+                "index": 25,
+                "inverseBindPose": {
+                    "matrix": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bip01 R Toe0Nub",
+                "parentIndex": 24
+            }
+        ],
+        "name": "Skeleton"
+    },
+    "Warrior_Base/textures/leather.texture": {
+        "anisotropy": 1,
+        "fileName": "C:\\Users\\Bunzaga\\Desktop\\[Dungeon]\\leather.jpg",
+        "flipY": true,
+        "magFilter": "Bilinear",
+        "minFilter": "Trilinear",
+        "name": "leather",
+        "offset": [
+            0,
+            0
+        ],
+        "realUrl": "C:/Users/Bunzaga/Desktop/[Dungeon]/leather.psd",
+        "ref": "Warrior_Base/textures/leather.texture",
+        "repeat": [
+            1,
+            1
+        ],
+        "url": "Warrior_Base/images/leather copy.png",
+        "wrapU": "Repeat",
+        "wrapV": "Repeat"
+    },
+    "entities/Camera.entity": {
+        "components": {
+            "camera": {
+                "far": 1000,
+                "fov": 20,
+                "near": 1
+            },
+            "transform": {
+                "rotation": [
+                    -50,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "translation": [
+                    0,
+                    27.04453468322754,
+                    22.65504264831543
+                ]
+            }
+        },
+        "name": "View Cam",
+        "ref": "entities/Camera.entity"
+    },
+    "entities/Camera_0.entity": {
+        "components": {
+            "camera": {
+                "far": 1000,
+                "fov": 45,
+                "near": 0.1
+            },
+            "transform": {
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "translation": [
+                    0,
+                    0,
+                    0
+                ]
+            }
+        },
+        "name": "GUI Cam",
+        "ref": "entities/Camera_0.entity"
+    },
+    "entities/PointLight.entity": {
+        "components": {
+            "light": {
+                "attenuate": true,
+                "color": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "direction": [
+                    0,
+                    0,
+                    0
+                ],
+                "intensity": 1,
+                "lightCookie": null,
+                "range": 10,
+                "shadowCaster": false,
+                "shadowSettings": {
+                    "darkness": 0,
+                    "far": 10,
+                    "fov": 55,
+                    "near": 1,
+                    "projection": "Perspective",
+                    "resolution": [
+                        256,
+                        256
+                    ],
+                    "shadowType": "VSM",
+                    "size": 400,
+                    "type": "Blur",
+                    "upVector": [
+                        0,
+                        1,
+                        0
+                    ]
+                },
+                "specularIntensity": 1,
+                "type": "PointLight"
+            },
+            "transform": {
+                "parentRef": "entities/Camera.entity",
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "translation": [
+                    0,
+                    3.0935518741607666,
+                    -30.422714233398438
+                ]
+            }
+        },
+        "name": "PointLight",
+        "ref": "entities/PointLight.entity"
+    },
+    "entities/Quad.entity": {
+        "components": {
+            "meshData": {
+                "meshRef": null,
+                "shape": "Quad"
+            },
+            "meshRenderer": {
+                "castShadows": true,
+                "cullMode": "Dynamic",
+                "hidden": false,
+                "materialRefs": [
+                    "materials/Material.material"
+                ],
+                "receiveShadows": true
+            },
+            "transform": {
+                "rotation": [
+                    -90,
+                    0,
+                    0
+                ],
+                "scale": [
+                    11.52021312713623,
+                    11.373994827270508,
+                    1
+                ],
+                "translation": [
+                    0,
+                    0,
+                    0
+                ]
+            }
+        },
+        "name": "Quad",
+        "ref": "entities/Quad.entity"
+    },
+    "materials/Material.material": {
+        "blendState": {
+            "blendDst": "OneMinusSrcAlphaFactor",
+            "blendEquation": "AddEquation",
+            "blendSrc": "SrcAlphaFactor",
+            "blending": "CustomBlending"
+        },
+        "cullState": {
+            "cullFace": "Back",
+            "enabled": true,
+            "frontFace": "CCW"
+        },
+        "depthState": {
+            "enabled": true,
+            "write": true
+        },
+        "name": "Blank",
+        "ref": "materials/Material.material",
+        "renderQueue": 2000,
+        "shaderRef": "GOO_ENGINE_SHADERS/uber",
+        "texturesMapping": {
+            "DIFFUSE_MAP": {
+                "enabled": true,
+                "textureRef": "textures/Seamless ground sand dirt crack texture.texture"
+            }
+        },
+        "uniforms": {
+            "discardThreshold": {
+                "enabled": false,
+                "value": 0
+            },
+            "fresnel": {
+                "enabled": true,
+                "value": 0
+            },
+            "materialAmbient": {
+                "enabled": true,
+                "value": [
+                    0.4363636363636364,
+                    0.4363636363636364,
+                    0.4363636363636364,
+                    1
+                ]
+            },
+            "materialDiffuse": {
+                "enabled": true,
+                "value": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            "materialEmissive": {
+                "enabled": true,
+                "value": [
+                    0,
+                    0,
+                    0,
+                    1
+                ]
+            },
+            "materialSpecular": {
+                "enabled": true,
+                "value": [
+                    0,
+                    0,
+                    0,
+                    1
+                ]
+            },
+            "materialSpecularPower": {
+                "enabled": true,
+                "value": 64
+            },
+            "normalMultiplier": {
+                "enabled": true,
+                "value": 1
+            },
+            "opacity": {
+                "enabled": true,
+                "value": 1
+            },
+            "reflectivity": {
+                "enabled": true,
+                "value": 0
+            }
+        }
+    },
+    "project.project": {
+        "backgroundColor": [
+            0.75,
+            0.76,
+            0.78,
+            1
+        ],
+        "created": "2013-11-19T06:24:19.809937",
+        "deleted": false,
+        "edit": [],
+        "entityRefs": [
+            "entities/Camera.entity",
+            "Warrior_Base/entities/Leather_Helm_0.entity",
+            "Warrior_Base/entities/Base_Boots_0.entity",
+            "Warrior_Base/entities/Base_Pants_0.entity",
+            "Warrior_Base/entities/Base_Head_0.entity",
+            "Warrior_Base/entities/Base_Tunic_0.entity",
+            "Warrior_Base/entities/Base_Gloves_0.entity",
+            "Warrior_Base/entities/RootNode.entity",
+            "entities/PointLight.entity",
+            "entities/Quad.entity"
+        ],
+        "fogColor": [
+            1,
+            1,
+            1
+        ],
+        "fogFar": 1000,
+        "fogNear": 0,
+        "globalAmbient": [
+            0,
+            0,
+            0
+        ],
+        "groupRefs": [
+            "root.group",
+            "Warrior_Base/Warrior_Base.group"
+        ],
+        "id": "7FaJ19lnS6q_7HNzAqv6vA",
+        "licenseType": "CC0",
+        "modified": "2013-11-19T06:24:19.809937",
+        "name": "Orthographic GUI Cam",
+        "originalLicenseType": null,
+        "own": [
+            "h9AeW1X3S1WZYADWuViCyw"
+        ],
+        "parent": null,
+        "public": true,
+        "publishedURL": "http://published.gooengine.com.s3-website-eu-west-1.amazonaws.com/7FaJ19lnS6q_7HNzAqv6vA",
+        "ref": "project.project",
+        "skybox": {
+            "environmentType": 1,
+            "imageUrls": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "rotation": 0,
+            "shape": "Box"
+        },
+        "useFog": false,
+        "view": []
+    },
+    "root.group": {
+        "libraryRefs": [
+            "entities/Camera.entity",
+            "entities/Camera_0.entity",
+            "entities/PointLight.entity",
+            "entities/Quad.entity",
+            "materials/Material.material",
+            "images/Seamless ground sand dirt crack texture.jpg",
+            "textures/Seamless ground sand dirt crack texture.texture"
+        ],
+        "name": "root",
+        "ref": "root.group"
+    },
+    "textures/Seamless ground sand dirt crack texture.texture": {
+        "anisotropy": 1,
+        "fileName": "Seamless ground sand dirt crack texture.jpg",
+        "flipY": true,
+        "magFilter": "Bilinear",
+        "minFilter": "Trilinear",
+        "name": "Seamless ground sand dirt crack texture",
+        "offset": [
+            0,
+            0
+        ],
+        "ref": "textures/Seamless ground sand dirt crack texture.texture",
+        "repeat": [
+            1,
+            1
+        ],
+        "url": "images/Seamless ground sand dirt crack texture.jpg",
+        "wrapU": "Repeat",
+        "wrapV": "Repeat"
+    }
+}
